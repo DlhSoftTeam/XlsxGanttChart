@@ -1,0 +1,14 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.WindowsDesktop">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="DlhSoft.GanttChartLightLibrary" Version="4.3.45.4" />
+    <PackageReference Include="DlhSoft.ProjectManagementFramework.Xlsx" Version="1.0.3" />
+  </ItemGroup>
+
+</Project>
